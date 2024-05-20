@@ -78,7 +78,7 @@ export const FloatingNav = ({
             <motion.span
               whileHover={{ scale: 1.1 }}
               transition={{ type: "spring", stiffness: 300 }}
-              className="hidden sm:block text-sm"
+              className="text-sm !cursor-pointer"
             >
               {navItem.name}
             </motion.span>
