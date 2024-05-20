@@ -21,7 +21,6 @@ export const FloatingNav = ({
   className?: string;
 }) => {
   const { scrollYProgress } = useScroll();
-
   const [visible, setVisible] = useState(false);
 
   useMotionValueEvent(scrollYProgress, "change", (current) => {
@@ -40,6 +39,10 @@ export const FloatingNav = ({
       }
     }
   });
+
+  const truncateName = (name: any) => {
+    return name.length > 4 ? name.slice(0, 4) + "..." : name;
+  };
 
   return (
     <AnimatePresence mode="wait">
@@ -78,9 +81,16 @@ export const FloatingNav = ({
             <motion.span
               whileHover={{ scale: 1.1 }}
               transition={{ type: "spring", stiffness: 300 }}
-              className="text-sm !cursor-pointer"
+              className="text-sm !cursor-pointer md:inline hidden"
             >
               {navItem.name}
+            </motion.span>
+            <motion.span
+              whileHover={{ scale: 1.1 }}
+              transition={{ type: "spring", stiffness: 300 }}
+              className="text-sm !cursor-pointer md:hidden inline"
+            >
+              {truncateName(navItem.name)}
             </motion.span>
           </Link>
         ))}
