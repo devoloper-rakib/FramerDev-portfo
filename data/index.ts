@@ -104,37 +104,36 @@ export const projects = [
     link: "/ui.apple.com",
   },
 ];
-
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Working with Rakib Hasan Sohag was a game-changer. His ability to understand our needs and deliver beyond our expectations was impressive. Rakib's commitment to excellence is unmatched.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Rakib brought a fresh perspective to our project. His innovative ideas and technical expertise made a significant impact. We couldn't have asked for a better partner in this journey.",
+    name: "Sarah Lee",
+    title: "CEO of Innovatech Solutions",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "From start to finish, Rakib demonstrated a deep understanding of our requirements. His attention to detail and dedication to delivering high-quality results were remarkable.",
+    name: "David Kim",
+    title: "Product Manager at TechWave",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Rakib was a seamless experience. His professionalism and proactive approach ensured that our project was completed on time and to the highest standard.",
+    name: "Emma Davis",
+    title: "Marketing Head at BrightFuture Inc.",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Rakib's technical skills are top-notch, but what sets him apart is his ability to communicate complex ideas in a simple, understandable way. He made the whole process so much easier for us.",
+    name: "John Smith",
+    title: "CTO of GreenEnergy Corp.",
   },
 ];
 
@@ -183,14 +182,14 @@ export const workExperience = [
     id: 2,
     title: "Mobile App Dev - JSM Tech",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Freelance App Dev Project",
     desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
@@ -203,6 +202,7 @@ export const workExperience = [
 ];
 
 export const socialMedia = [
+  // todo : will add link of social media
   {
     id: 1,
     img: "/git.svg",
