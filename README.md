@@ -20,17 +20,30 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## aceternity ui
 
-To learn more about Next.js, take a look at the following resources:
+This project is crafted entirely using Aceternity UI, an independent web design and development studio dedicated to delivering an exceptional web development experience with blazing-fast websites.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Component used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The project extensively utilizes components from Aceternity UI, providing a seamless and visually appealing user experience. Below are the primary components integrated into this project:
 
-## Deploy on Vercel
+1. Background Boxes
+2. Background Gradient
+3. Bento Grid
+4. Canvas Reval Effect
+5. Card Hover Effect
+6. Floating Navbar
+7. Github Globe
+8. Gradient Animation
+9. Grid and Dot Backgrounds
+10. Infinite Moving Cards
+11. Tailwind Css buttons
+12. Text Generate Effect
+13. 3d Pin (notably one of the most impressive components)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Each component has been customized to meet the specific needs of the project, offering both flexibility and ease of use.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Deploy on Netlify
+
+This project is deployed on Netlify, providing a reliable and scalable hosting solution.
